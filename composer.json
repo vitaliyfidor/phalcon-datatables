@@ -1,6 +1,6 @@
 {
-    "name": "m1ome/phalcon-datatables",
-    "description": "DataTables adapter for Phalcon Framework",
+    "name": "innovationdothome/phalcon-datatables-fork",
+    "description": "DataTables adapter for Phalcon Framework, fork for m1ome/phalcon-datatables",
     "keywords": ["Phalcon", "DataTables", "Plugin"],
     "license": "MIT",
     "autoload": {
@@ -10,8 +10,8 @@
     },
     "authors": [
       {
-        "name": "Pavel Makarenko",
-        "email": "cryfall@gmail.com"
+        "name": "Vitaliy Fidor",
+        "email": "v.fidor@gmail.com"
       }
     ],
     "minimum-stability": "dev",
