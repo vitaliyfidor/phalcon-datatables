@@ -20,6 +20,7 @@ class ParamsParser extends Component{
 
     $request = $this->di->get('request');
     $requestParams = $request->isPost() ? $request->getPost() : $request->getQuery();
+    $requestParams['draw'] = (int)$requestParams['draw'];
     $this->params = (array)$requestParams + $params;
     $this->setPage();
   }
